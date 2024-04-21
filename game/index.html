@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Radius Raid</title>
+		<link rel="shortcut icon" id="favicon" />
+
+		<style>
+			body {
+				background: #080808;
+			}
+
+			#wrap {
+				background: #bbb5b5;
+				box-shadow: inset 0 0 0 1px #404040, 0 0 0 1px #000;
+				left: 50%;
+				opacity: 0;
+				padding: 10px;		
+				position: absolute;
+				top: 50%;
+				transition: opacity 1.5s;
+			}
+
+			.loaded #wrap {				
+				opacity: 1;			
+			}
+
+			#wrap-inner {
+				background: #000;				
+				overflow: hidden;
+				position: relative;				
+			}
+
+			canvas {
+				cursor: crosshair;
+				display: block;
+				left: 0;
+				position: absolute;
+				top: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="wrap">
+			<div id="wrap-inner">
+				<canvas id="cbg1"></canvas>
+				<canvas id="cbg2"></canvas>
+				<canvas id="cbg3"></canvas>
+				<canvas id="cbg4"></canvas>
+				<canvas id="cmg"></canvas>
+				<canvas id="cfg"></canvas>
+			</div>
+		</div>
+		<script>var $ = {};</script>
+		<script src="js/1/jsfxr.js"></script>
+		<script src="js/1/util.js"></script>
+		<script src="js/1/storage.js"></script>
+		<script src="js/1/definitions.js"></script>
+		<script src="js/1/audio.js"></script>		
+		<script src="js/1/text.js"></script>
+		<script src="js/1/hero.js"></script>
+		<script src="js/1/enemy.js"></script>
+		<script src="js/1/bullet.js"></script>
+		<script src="js/1/explosion.js"></script>
+		<script src="js/1/powerup.js"></script>
+		<script src="js/1/particle.js"></script>
+		<script src="js/1/particleemitter.js"></script>
+		<script src="js/1/textpop.js"></script>
+		<script src="js/1/levelpop.js"></script>
+		<script src="js/1/button.js"></script>
+		<script src="js/1/game.js"></script>
+	</body>
+</html>

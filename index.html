@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stilspace</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./screen.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="icon" href="icon/Stutnik16x16.ico">
+</head>
+
+<body>
+
+    <header>
+        <div class="contact-inform">
+            <img class="header__steelspace-logo" src="./imgs/stilspace-logo.png">
+            <ul class="contact">
+                <li class="contact-li">
+                    <button class="light-blue-btn opacity-btn" type="button">8 800 222-87-18</button>
+                </li>
+                <li class="contact-li">
+                    <button class="light-blue-btn" type="button">Авторизация</button>
+                </li>
+            </ul>
+        </div>
+
+        <nav>
+            <ul>
+                <li class="nav__items"><a href="#about-us">О нас</a></li>
+                <li class="nav__items"><a href="#img-id">Снимки</a></li>
+                <li class="nav__items"><a href="./game/min.html">Игра</a></li>
+                <li class="nav__items"><a href="#articleID">Предназначение спутников</a></li>
+                <!--<li class="nav__items"></li>-->
+            </ul>
+        </nav>
+    </header>
+
+    <img id="meteor" src="./imgs/meteor.png">
+    <img id="moon" src="./imgs/moon.png" width alt="Луна">
+
+    <main>
+        <div class="main__wrapper">
+            <article class="about-us" id="about-us">
+                <div class="about-inform">
+                    <h2 class="h-about">СТИЛСПЭЙС</h2>
+                    <p class="p-about">
+                        Космическая компания СТИЛСПЭЙС основана в 2022 году в качестве оператора
+                        спутников дистанционного зондирования Земли «Стилсат»
+                    </p>
+                </div>
+                <div class="mission">
+                    <h3 class="h-mission element-animation">Миссия</h3>
+                    <p class="p-about element-animation">
+                        Наша космическая инициатива - это вклад
+                        в развитие страны и будущее человечества!
+                    </p>
+                </div>
+            </article>
+            <h2 id="img-id" class="h-slide element-animation">Cъемка в сверхвысоком разрешении</h2>
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <img class="swiper-slide" src="./imgs/earthIMG/earth1.webp"> <!-- switch-IMG -->
+                    <img class="swiper-slide" src="./imgs/earthIMG/earth2.webp">
+                    <img class="swiper-slide" src="./imgs/earthIMG/earth3.webp">
+                    <img class="swiper-slide" src="./imgs/earthIMG/earth4.webp">
+                </div>
+
+                <div class="swiper-pagination"></div>
+            </div>
+            <h2 class="h-card element-animation">Предназначение спутников</h2>
+            <article id="articleID" class="block-card">
+                <div class="card text-bg-primary mb-3" style="max-width: 19rem;">
+                    <div class="card-header">Мониторинг чрезвычайных ситуаций</div>
+                    <div class="card-body">
+                        <p class="card-text">Оперативные спутниковые данные о ситуации в зоне развития пожаров, паводков
+                            и наводнений, анализ состояния и готовности средств инженерной защиты и противопожарного
+                            обустройства.</p>
+                    </div>
+                </div>
+                <div class="card text-bg-secondary mb-3" style="max-width: 19rem;">
+                    <div class="card-header">Экологический мониторинг</div>
+                    <div class="card-body">
+                        <p class="card-text">Выявление признаков экологических нарушений, оценка последствий и
+                            прогнозирование опасного воздействия на природные экосистемы вблизи полигонов размещения
+                            бытовых, промышленных отходов и в результате производственной деятельности.</p>
+                    </div>
+                </div>
+                <div class="card text-bg-success mb-3" style="max-width: 19rem;">
+                    <div class="card-header">Строительный мониторинг</div>
+                    <div class="card-body">
+                        <p class="card-text">Дистанционный контроль динамики реализации строительных проектов позволяет
+                            выявить отдельные виды используемой техники и материалов, провести предпроектное
+                            исследование территории и прогнозирование экономических рисков срыва сроков строительства
+                        </p>
+                    </div>
+                </div>
+                <div class="card text-bg-danger mb-3" style="max-width: 19rem;">
+                    <div class="card-header">Мониторинг критической инфраструктуры</div>
+                    <div class="card-body">
+                        <p class="card-text">Информация о состоянии и динамике изменений на объектах критической
+                            инфраструктуры и прилегающих территориях. Выявление и оценка природных и техногенных рисков,
+                            участков повреждений, хозяйственной активности.</p>
+                    </div>
+                </div>
+                <div class="card text-bg-warning mb-3" style="max-width: 19rem;">
+                    <div class="card-header">Информационное сопровождение разведки и добычи полезных ископаемых</div>
+                    <div class="card-body">
+                        <p class="card-text">Исходная информация о рельефе местности, почве и динамике водных объектов
+                            для планирования работ по разведке недр и разработки проектов освоения месторождений.</p>
+                    </div>
+                </div>
+                <div class="card text-bg-info mb-3" style="max-width: 19rem;">
+                    <div class="card-header">Лесное и сельское хозяйство</div>
+                    <div class="card-body">
+                        <p class="card-text">Регулярный мониторинг состояния лесной растительности и
+                            сельскохозяйственных культур. Выявление рубок и гибели леса, определение породного состава,
+                            контроль развития посевов и оценка продуктивности угодий.</p>
+                    </div>
+                </div>
+            </article>
+    </main>
+
+    <footer>
+        <div class="div-footer">
+            <ul class="ul-footer">
+                <li class="li-footer"><img class="svg-logo" src="imgs/logo-team.svg" alt="Логотип команды"></li>
+            </ul>
+    
+            <ul class="ul-footer">
+                <li class="li-footer"><img class="social" src="imgs/telegram-footer.svg" alt="Телеграм"></li>
+                <li class="li-footer"><img class="social" src="imgs/vk-footer.svg" alt="Вконтакте"></li>
+            </ul>
+        </div>
+    </footer>
+
+    <div id="eater"></div>
+    <script src="scrips.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+        
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            speed: 1000,
+            autoplay: {
+                delay: 2500,
+                disableOnInteraction: false,
+            },
+            coverflowEffect: {
+                rotate: 50,
+                stretch: 0,
+                depth: 200,
+                modifier: 1,
+                slideShadows: true,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            loop: true,
+        });
+    </script>
+</body>
+
+</html>
